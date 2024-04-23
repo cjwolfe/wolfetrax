@@ -1,0 +1,44 @@
+/* CSS */
+
+/* Import your own font */
+@import url('/HoboStd.otf') format('otf');
+
+/* Set the body styling */
+body {
+    font-family: 'HoboStd', sans-serif;
+    background-color: white;
+    color: black;
+}
+
+/* Set the header styling */
+header {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+    border: 1px solid black;
+}
+
+/* Set the main body styling */
+.main-body {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 20px;
+}
+
+/* Set relative sizing for elements */
+h1,
+h2,
+h3,
+p {
+    font-size: calc(1em + 1vw);
+}
+
+#logo-section img {
+    width: 21em;
+    height: 9em;
+    object-fit: cover;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid black;
+}

@@ -1,7 +1,7 @@
 /* CSS */
 
 /* Import your own font */
-@import url('/HoboStd.otf') format('otf');
+/* @import url('/HoboStd.otf') format('otf'); */
 
 /* Set the body styling */
 body {
@@ -32,6 +32,11 @@ h3,
 p {
     font-size: calc(1em + 1vw);
 }
+
+#player{
+    align-content:center;
+}
+
 
 #logo-section img {
     width: 21em;

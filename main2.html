@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Wolfetrax Website">
+    <title>Wolfetrax</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #f4f4f4; }
+        header { background: #e6e6e6; padding: 10px 20px; display: flex; justify-content: space-between; align-items: center; color:#000; }
+        .contact{ display:flex; justify-content:left; padding: 10px; color:#000; text-decoration:none;}
+        .header-container { display: flex; justify-content: space-between; width: 100%; }
+        .logo img { height: 50px; image-resolution:unset;}
+        .social-icons a { margin-left: 10px; font-size: 1.2rem; color: #000;  }
+        main { display: flex; justify-content: center; padding: 20px; }
+        .carousel { display: flex; align-items: center; }
+        .carousel-container { position: relative; display: flex; align-items: center; overflow: hidden; width: 25rem; }
+        .carousel-item { min-width: 100%; transition: transform 0.5s ease; display: none; }
+        .carousel-item.active { display: block; }
+        .arrow { background: none; border: none; font-size: 2rem; cursor: pointer; }
+        .description { max-width: 400px; padding-left: 100px; }
+        .link-buttons { display: flex; gap: 10px; margin-top: 10px; }
+        .link-buttons .btn { display: inline-block; padding: 8px 16px; border: 2px solid #000; text-decoration: none; color: #000; border-radius: 5px; }
+        .link-buttons .btn:hover { background: #ddd; }
+    </style>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const slides = document.querySelectorAll('.carousel-item');
+            let currentSlide = 0;
+
+            function showSlide(index) {
+                slides.forEach((slide, idx) => {
+                    slide.classList.toggle('active', idx === index);
+                });
+            }
+
+            document.querySelector('.arrow.left').addEventListener('click', () => {
+                currentSlide = (currentSlide > 0) ? currentSlide - 1 : slides.length - 1;
+                showSlide(currentSlide);
+            });
+
+            document.querySelector('.arrow.right').addEventListener('click', () => {
+                currentSlide = (currentSlide < slides.length - 1) ? currentSlide + 1 : 0;
+                showSlide(currentSlide);
+            });
+
+            showSlide(currentSlide);
+        });
+    </script>
+</head>
+<body>
+    <header>
+                <div class="contact">
+                    <a href = "#" class="contact">Contact</a>
+                </div>
+        <div class="header-container">
+            <a href="#" class="logo"><img src="Wolfetrax2.png" alt="Wolfetrax"></a>
+            <nav>
+
+                <div>
+
+                </div>
+                <!-- <ul>
+                    <li><a href="#">Contact</a></li>
+                </ul> -->
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                    <a href="#"><i class="fab fa-soundcloud"></i></a>
+                    <a href="#"><i class="fab fa-spotify"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="carousel">
+            <div class="carousel-container">
+                <button class="arrow left">&#9664;</button>
+                <div class="carousel-item active">
+                    <img src="your-album-art.png" alt="Album Art">
+                    <h2>Clear Your Head</h2>
+                    <audio controls>
+                        <source src="your-audio-file.mp3" type="audio/mpeg">
+                    </audio>
+                </div>
+                <div class="carousel-item">
+                    <img src="your-album-art-2.png" alt="Second Album Art">
+                    <h2>Second Track</h2>
+                    <audio controls>
+                        <source src="your-audio-file-2.mp3" type="audio/mpeg">
+                    </audio>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="description">
+            <h2>Heading</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+            <div class="link-buttons">
+                <a href="#" class="btn">Link</a>
+                <a href="#" class="btn">Link</a>
+                <a href="#" class="btn">Link</a>
+            </div>
+        </section>
+        <button class="arrow right">&#9654;</button>
+    </main>
+
+    <footer></footer>
+</body>
+</html>

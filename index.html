@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wolfetrax</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <header class="site-header">
+        <div class="header-container">
+            <a href="https://www.wolfetrax.net" class="logo"><img src="assets/branding/LogovFinal/wt whiteish small.png" height="75rem"></a>
+            <!-- <a href="assets/branding/LogovFinal/wolfetrax temp logo small.PNG" class="logo">Wolfetrax</a> -->
+            <nav class="main-nav">
+                <a href="index.html" class="nav-link active">Home</a>
+                <a href="contact.html" class="nav-link">Contact</a>
+            </nav>
+            <!-- <div class="cart-status"> -->
+                <!-- <a href="#" class="cart-link">Cart <span class="cart-count">0</span></a> -->
+            <!-- </div> -->
+        </div>
+    </header>
+
+    <!-- <section class="hero-section">
+        <div class="hero-content">
+            <h1 class="hero-title">Wolfetrax</h1>
+            <p class="hero-subtitle">Music production, remixes, and sound design portfolio.</p>
+            <div class="scroll-indicator">
+                <span>Scroll</span>
+                <i class="fa-solid fa-chevron-down"></i>
+            </div>
+        </div>
+    </section> -->
+
+    <main class="portfolio-container">
+
+        <!-- Featured Project Section -->
+        <article class="project-card featured static-track">
+            <div class="static-header-layout">
+                <div class="track-header-layout">
+                    <img src="assets/albumart/JustTheBones/Churchyard Ghost Just the Bones Album Art Square 500x500.jpg" alt="Just the Bones Album Art" class="track-thumbnail">
+                    <div class="track-header-text">
+                        <span class="project-category">Latest Project</span>
+                        <h2 class="project-title">Just the Bones</h2>
+                        <p class="project-subtitle">Churchyard Ghost, brought to you by Wolfetrax</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="static-content">
+                <div class="project-info">
+                        <p class="project-description">Release Date: October 2023<br>
+                            Andrew Covil, better known as The Churchyard Ghost, reached out with the intriguing prospect of mixing an album. I have always wanted to mix a full album, and while this was a challenge, it was an awesome experience! At some point I will be doing a video on the topic, as I learned a few things in the making of this album. Keep an eye on YouTube for the planned Video Content, and for now, go support the release!
+                        </p>
+                            <div class="project-meta">Coming to wherever you buy music Friday, the 13th of October 2023!</div>
+                        <div class="project-links">
+                            <a href="http://churchyardghost.com/" class="btn btn-primary">Churchyard Ghost</a>
+                            <a href="https://music.apple.com/us/artist/the-churchyard-ghost/1567144729" class="btn btn-secondary">Apple Music</a>
+                            <a href="https://open.spotify.com/album/6fnKxf0xtX8yKI88T7zz54" class="btn btn-secondary">Spotify</a>
+                        </div>
+                </div>
+                <!-- <div class="project-media">
+                    <div class="audio-player-mock">
+                        <div class="mock-header">The Churchyard Ghost - Top Tracks</div>
+                            <ol class="track-list">
+                                <li><span>1. GOD DAMN</span><span class="track-duration">02:36</span></li>
+                                <li><span>2. Feed the Beast</span><span class="track-duration">03:28</span></li>
+                                <li><span>3. Low On Vacancy</span><span class="track-duration">03:19</span></li>
+                                <li><span>4. Sirens</span><span class="track-duration">03:56</span></li>
+                                <li><span>5. Harvester</span><span class="track-duration">03:00</span></li>
+                            </ol>
+                        <div class="mock-controls">
+                                <button class="btn-play-mock"><i class="fa-solid fa-play"></i> Preview on Spotify</button>
+                        </div>
+                    </div>
+                </div> -->
+                <iframe data-testid="embed-iframe" 
+                    style="border-radius:12px" 
+                    src="https://open.spotify.com/embed/album/6fnKxf0xtX8yKI88T7zz54?utm_source=generator&theme=0" 
+                    width="100%" 
+                    height="352" 
+                    frameBorder="0" 
+                    allowfullscreen="" 
+                    llow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
+                    loading="lazy"></iframe>
+                <!-- </div> -->
+            </div>
+        </article>
+
+        <!-- Portfolio Grid Section -->
+
+        <div class="portfolio-grid">
+
+            <!-- Item 1 -->
+            <article class="project-card expandable-track">
+                <div class="expandable-trigger">
+                    <div class="track-header-layout vertical">
+                        <img src="assets/albumart/PartyPeopleParty/PPP WT Remix Album Art Square.png" alt="Party People Party Artwork" class="track-thumbnail large">
+                        <div class="track-header-text">
+                            <h3 class="project-title">Party People Party (Remix)</h3>
+                            <p class="project-subtitle">There ain't no party like a Party People Party!</p>
+                        </div>
+                    </div>
+                    <div class="expand-icon-container">
+                        <i class="fa-solid fa-chevron-down expand-icon"></i>
+                    </div>
+                </div>
+                
+                <div class="expandable-content">
+                    <div class="expanded-grid">
+                        <div class="project-info">
+                            <p class="project-description">Release Date: January 2023<br>This remix was a blast to work on! Early last year, Dan emailed me and asked me if I'd like to flip their jam, and I said yes! Check out the release at all the links below, and check out The Party People at all the usual places.</p>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://youtu.be/V2L-k3HCGS0" class="btn btn-small">Track Breakdown</a>
+                            <a href="https://fanlink.to/partypeoplepartyremixed" class="btn btn-small">Store Links</a>
+                            <a href="https://thepartypeople.bandcamp.com/album/party-people-party-remixed" class="btn btn-small">Bandcamp</a>
+                        </div>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Item 2 -->
+            <article class="project-card expandable-track">
+                <div class="expandable-trigger">
+                    <div class="track-header-layout vertical">
+                        <img src="assets/albumart/TheCombinator/Square Album Art Wolfetrax.png" alt="The Combinator Artwork" class="track-thumbnail large">
+                        <div class="track-header-text">
+                            <h3 class="project-title">The Combinator</h3>
+                            <p class="project-subtitle">Glitch Hop</p>
+                        </div>
+                    </div>
+                    <div class="expand-icon-container">
+                        <i class="fa-solid fa-chevron-down expand-icon"></i>
+                    </div>
+                </div>
+
+                <div class="expandable-content">
+                    <div class="expanded-grid">
+                    <p class="project-description">Release Date: August 2022<br>I've been writing music for a while, and one of my first hardware synths was a Moog Subsequent 37. It's a fantastic little piece of gear, with tons of sonic potential. This month, I'm proud to present a project that really shows off a lot of what the Sub 37 can do!</p>
+                    <div class="project-links">
+                        <!-- <a href="https://youtu.be/UmnSQWMp4zo" class="btn btn-small">YouTube</a> -->
+                        <a href="https://distrokid.com/hyperfollow/wolfetrax/the-combinator" class="btn btn-small">Store Links</a>
+                        <a href="https://wolfetrax.bandcamp.com/track/the-combinator" class="btn btn-small">Bandcamp</a>
+                        <a href="https://soundcloud.com/wolfetrax/the-combinator?utm_source=clipboard&utm_campaign=wtshare&utm_medium=widget&utm_content=https%253A%252F%252Fsoundcloud.com%252Fwolfetrax%252Fthe-combinator" class="btn btn-small">Soundcloud</a>
+                    </div>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Item 3 -->
+            <article class="project-card expandable-track">
+                <div class="expandable-trigger">
+                    <div class="track-header-layout vertical">
+                        <img src="assets/albumart/Atmos/ATMOS Square Album Art 2160x2160.png" alt="Atmos Artwork" class="track-thumbnail large">
+                        <div class="track-header-text">
+                            <h3 class="project-title">Atmos</h3>
+                            <p class="project-subtitle">Long time running</p>
+                        </div>
+                    </div>
+                    <div class="expand-icon-container">
+                        <i class="fa-solid fa-chevron-down expand-icon"></i>
+                    </div>
+                </div>
+
+                <div class="expandable-content">
+                    <div class="expanded-grid">
+                    <p class="project-description">Release Date: March 2022<br>Five years ago, I wrote a song. As I grew as an artist, the song came along with me and grew too. It has been through countless revisions (42 major revisions in actuality). By the end of the writing process what I had written wasn't truly a song, it was my journey.</p>
+                    <div class="project-links">
+                        <a href="https://youtu.be/UmnSQWMp4zo" class="btn btn-small">YouTube</a>
+                        <a href="https://distrokid.com/hyperfollow/wolfetrax/atmos" class="btn btn-small">Store Links</a>
+                        <a href="https://wolfetrax.bandcamp.com/track/atmos" class="btn btn-small">Bandcamp</a>
+                    </div>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Item 4 -->
+            <article class="project-card expandable-track">
+                <div class="expandable-trigger">
+                    <div class="track-header-layout vertical">
+                        <img src="assets/albumart/TheLick/The Lick Album Art 2160x2160.png" alt="The Lick Artwork" class="track-thumbnail large">
+                        <div class="track-header-text">
+                            <h3 class="project-title">The Lick</h3>
+                            <!-- <p class="project-subtitle">Glitch Hop</p> -->
+                        </div>
+                    </div>
+                    <div class="expand-icon-container">
+                        <i class="fa-solid fa-chevron-down expand-icon"></i>
+                    </div>
+                </div>
+
+                <div class="expandable-content">
+                    <div class="expanded-grid">
+                    <p class="project-description">Release Date: February 2022<br>This track goes out to all my new fans. I've really enjoyed seeing people listen to and share my music over the last few months. If you'd like to support my music, the store links are in the middle, but you can also pay what you wish on Bandcamp.</p>
+                    <div class="project-links">
+                        <a href="https://youtu.be/mO8TX_Hptbc" class="btn btn-small">YouTube</a>
+                        <a href="https://distrokid.com/hyperfollow/wolfetrax/the-lick" class="btn btn-small">Store Links</a>
+                        <a href="https://wolfetrax.bandcamp.com/track/the-lick" class="btn btn-small">Bandcamp</a>
+                        <a href="https://www.youtube.com/watch?v=NhOGDNPI0zE" class="btn btn-small">Glitch Hop Community</a>
+                    </div>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Item 5 -->
+            <article class="project-card expandable-track">
+                <div class="expandable-trigger">
+                    <div class="track-header-layout vertical">
+                        <img src="assets/albumart/ClearYourHead/Square Album Art.png" alt="Clear Your Head Artwork" class="track-thumbnail large">
+                        <div class="track-header-text">
+                            <h3 class="project-title">Clear Your Head</h3>
+                            <!-- <p class="project-subtitle">Glitch Hop</p> -->
+                        </div>
+                    </div>
+                    <div class="expand-icon-container">
+                        <i class="fa-solid fa-chevron-down expand-icon"></i>
+                    </div>
+                </div>
+
+                <div class="expandable-content">
+                    <div class="expanded-grid">
+                    <!-- <p class="project-description"></p> -->
+                    <p class="project-description">Release Date: December 2021<br>This track has been on my mind for a few years. It's about chilling out and remembering to relax once in a while, and represents my struggle to do so for the past few months. This song is about clearing your head in order to perform at your best. I hope you can take away some lessons from my experiences with work ethic and all that, but until then, please enjoy this release to the fullest! <br>I'll see you all next month with some more music :D<br>-Chris
+                    </p>
+                    <div class="project-links">
+                        <a href="https://youtu.be/FFsYMyvxgUQ?si=b5XXz2elyUKsyc84" class="btn btn-small">YouTube</a>
+                        <!-- <a href="#" class="btn btn-small">Store Links</a> -->
+                        <a href="https://wolfetrax.bandcamp.com/track/clear-your-head" class="btn btn-small">Bandcamp</a>
+                    </div>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Item 6 -->
+            <article class="project-card expandable-track">
+                <div class="expandable-trigger">
+                    <div class="track-header-layout vertical">
+                        <img src="assets/albumart/Obscurus/Obscurus.avif" alt="Obscurus Artwork" class="track-thumbnail large">
+                        <div class="track-header-text">
+                            <h3 class="project-title">Obscurus</h3>
+                            <p class="project-subtitle">Loopop Remix Contest</p>
+                        </div>
+                    </div>
+                    <div class="expand-icon-container">
+                        <i class="fa-solid fa-chevron-down expand-icon"></i>
+                    </div>
+                </div>
+
+                <div class="expandable-content">
+                    <div class="expanded-grid">
+                    <p class="project-description">Release Date: October 2021<br>This track has been on my mind for a few years. It's about chilling out and remembering to relax once in a while, and represents my struggle to do so for the past few months. This song is about clearing your head in order to perform at your best. I hope you can take away some lessons from my experiences with work ethic and all that, but until then, please enjoy this release to the fullest! 
+                    </p>
+                        <p class="project-description">I'll see you all next month with some more music :D</p>
+                    <p class="project-description">-Chris</p>
+                    <div class="project-links">
+                        <a href="https://youtu.be/Zyb2UEw-WMU" class="btn btn-small">YouTube</a>
+                        <!-- <a href="#" class="btn btn-small">Store Links</a> -->
+                        <a href="https://wolfetrax.bandcamp.com/track/obscurus" class="btn btn-small">Bandcamp</a>
+                    </div>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Item 7 -->
+            <article class="project-card expandable-track">
+                <div class="expandable-trigger">
+                    <div class="track-header-layout vertical">
+                        <img src="assets/albumart/Stargazer/Stargazer Original Mix Artwork.png" alt="Stargazer Artwork" class="track-thumbnail large">
+                        <div class="track-header-text">
+                            <h3 class="project-title">Stargazer</h3>
+                            <!-- <p class="project-subtitle">Original Mix</p> -->
+                            <!-- <p class="project-description">Here is a description</p> -->
+                        </div>
+                    </div>
+                    <div class="expand-icon-container">
+                        <i class="fa-solid fa-chevron-down expand-icon"></i>
+                    </div>
+                </div>
+
+                <div class="expandable-content">
+                    <div class="expanded-grid">
+
+                    <!-- <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay; encrypted-media" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/soundcloud%253Atracks%253A902540689&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/wolfetrax" title="wolfetrax" target="_blank" style="color: #cccccc; text-decoration: none;">wolfetrax</a> · <a href="https://soundcloud.com/wolfetrax/stargazer" title="Stargazer (Free Download)" target="_blank" style="color: #cccccc; text-decoration: none;">Stargazer (Free Download)</a></div> -->
+
+                    <p class="project-description">Release Date: August 2021<br>Stargazer is a tune that started out as a sample pack competition, but ended upt getting it's own VIP mix. Check it out at the links below!</p>
+                    <div class="project-links">
+                        <a href="https://www.youtube.com/watch?v=sSduZeY8Fe8" class="btn btn-small">YouTube</a>
+                        <a href="https://wolfetrax.bandcamp.com/album/vip-mixes" class="btn btn-small">Bandcamp</a>
+                        <a href="https://soundcloud.com/wolfetrax/stargazer" class="btn btn-small">Soundcloud</a>
+                        <!-- <a href="#" class="btn btn-small">Spotify</a> -->
+                        <!-- <a href="#" class="btn btn-small">Store Links</a> -->
+
+                    </div>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Item 8 -->
+            <article class="project-card expandable-track">
+                <div class="expandable-trigger">
+                    <div class="track-header-layout vertical">
+                        <img src="assets/albumart/AloneTime/Alone Time WT Remix Artwork.png" alt="Alone Time Artwork" class="track-thumbnail large">
+                        <div class="track-header-text">
+                            <h3 class="project-title">Alone Time</h3>
+                            <p class="project-subtitle">Wolfetrax Remix</p>
+                        </div>
+                    </div>
+                    <div class="expand-icon-container">
+                        <i class="fa-solid fa-chevron-down expand-icon"></i>
+                    </div>
+                </div>
+
+                <div class="expandable-content">
+                    <div class="expanded-grid">
+                    <p class="project-description">Release Date: January 2020<br>I was fortunate enough to be allowed to make a remix of DJ Slynk's track "Alone Time", and even got blessings from the man himself to release it! Enjoy my take on this funky tune!</p>
+                        <div class="project-links">
+                            <a href="https://www.youtube.com/watch?v=_NcxYPPHLcI" class="btn btn-small">YouTube</a>
+                            <!-- <a href="#" class="btn btn-small">Bandcamp</a> -->
+                            <a href="https://soundcloud.com/wolfetrax/alonetime" class="btn btn-small">Soundcloud</a>
+                            <!-- <a href="#" class="btn btn-small">Store Links</a> -->
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <!-- Item 9 -->
+            <article class="project-card expandable-track">
+                <div class="expandable-trigger">
+                    <div class="track-header-layout vertical">
+                        <img src="assets/albumart/AMF/All My Friends Wolfetrax Remix Artwork.png" alt="AMF Artwork" class="track-thumbnail large">
+                        <div class="track-header-text">
+                            <h3 class="project-title">All My Friends</h3>
+                            <p class="project-subtitle">Wolfetrax Remix</p>
+                        </div>
+                    </div>
+                    <div class="expand-icon-container">
+                        <i class="fa-solid fa-chevron-down expand-icon"></i>
+                    </div>
+                </div>
+
+                <div class="expandable-content">
+                    <div class="expanded-grid">
+                    <p class="project-description">Release Date: January 2020<br>Project Description goes here</p>
+                        <div class="project-links">
+                            <a href="#" class="btn btn-small">YouTube</a>
+                        <a href="https://wolfetrax.bandcamp.com/album/vip-mixes" class="btn btn-small">Bandcamp</a>
+                            <a href="https://soundcloud.com/wolfetrax/amfsngremix" class="btn btn-small">Soundcloud</a>
+                            <!-- <a href="#" class="btn btn-small">Store Links</a> -->
+                        </div>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Item 10 -->
+            <article class="project-card expandable-track">
+                <div class="expandable-trigger">
+                    <div class="track-header-layout vertical">
+                        <img src="assets/albumart/PhunkCity/Phunk City Original Mix Artwork.png" alt="Project Artwork" class="track-thumbnail large">
+                        <div class="track-header-text">
+                            <h3 class="project-title">Phunk City</h3>
+                            <!-- <p class="project-subtitle">Project Subtitle</p>
+                            <p class="project-description">Here is a description</p> -->
+                        </div>
+                    </div>
+                    <div class="expand-icon-container">
+                        <i class="fa-solid fa-chevron-down expand-icon"></i>
+                    </div>
+                </div>
+
+                <div class="expandable-content">
+                    <div class="expanded-grid">
+                        <p class="project-description">Release Date: September 2019<br>Project Description goes here</p>
+                        <div class="project-links">
+                            <a href="#" class="btn btn-small">YouTube</a>
+                        <a href="https://wolfetrax.bandcamp.com/album/vip-mixes" class="btn btn-small">Bandcamp</a>
+                            <a href="#" class="btn btn-small">Spotify</a>
+                            <a href="#" class="btn btn-small">Store Links</a>
+                        </div>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Item 11 -->
+            <article class="project-card expandable-track">
+                <div class="expandable-trigger">
+                    <div class="track-header-layout vertical">
+                        <img src="assets/albumart/SpaceRace/Space Race Original Mix Artwork.png" alt="Project Artwork" class="track-thumbnail large">
+                        <div class="track-header-text">
+                            <h3 class="project-title">Space Race</h3>
+                        </div>
+                    </div>
+                    <div class="expand-icon-container">
+                        <i class="fa-solid fa-chevron-down expand-icon"></i>
+                    </div>
+                </div>
+
+                <div class="expandable-content">
+                    <div class="expanded-grid">
+                    <p class="project-description">Release Date: September 2018<br>This was one of the first tunes I got on Glitch Hop Community, have a gander!</p>
+                        <div class="project-links">
+                            <a href="https://www.youtube.com/watch?v=N2w6rHtlTlE" class="btn btn-small">YouTube (GHC)</a>
+                            <a href="https://www.youtube.com/watch?v=uM8Iiungres" class="btn btn-small">YouTube (My Channel)</a>
+                            <!-- <a href="#" class="btn btn-small">Store Links</a> -->
+                        </div>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Item N -->
+            <!-- <article class="project-card expandable-track">
+                <div class="expandable-trigger">
+                    <div class="track-header-layout vertical">
+                        <img src="#" alt="Project Artwork" class="track-thumbnail large">
+                        <div class="track-header-text">
+                            <h3 class="project-title">Project Title</h3>
+                            <p class="project-subtitle">Project Subtitle</p>
+                            <p class="project-description">Here is a description</p>
+                        </div>
+                    </div>
+                    <div class="expand-icon-container">
+                        <i class="fa-solid fa-chevron-down expand-icon"></i>
+                    </div>
+                </div>
+
+                <div class="expandable-content">
+                    <div class="expanded-grid">
+                    <p class="project-description">Project Description goes here</p>
+                        <div class="project-links">
+                            <a href="#" class="btn btn-small">YouTube</a>
+                            <a href="#" class="btn btn-small">Bandcamp</a>
+                            <a href="#" class="btn btn-small">Spotify</a>
+                            <a href="#" class="btn btn-small">Store Links</a>
+                        </div>
+                    </div>
+                </div>
+            </article> -->
+
+            
+        </div>
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-container">
+            <div class="footer-info">
+                <h4>Wolfetrax Music</h4>
+                <p>Email: <a href="mailto:chris@wolfetrax.net">chris@wolfetrax.net</a></p>
+            </div>
+            <div class="footer-socials">
+                <a href="https://wolfetrax.bandcamp.com/" aria-label="Bandcamp"><i class="fa-brands fa-bandcamp"></i></a>
+                <a href="https://www.youtube.com/channel/UCOQJxZuRbGfU3e4-d-n2UJA" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+                <a href="http://soundcloud.com/wolfetrax" aria-label="SoundCloud"><i class="fa-brands fa-soundcloud"></i></a>
+                <a href="https://open.spotify.com/artist/1rOgUH9gs3npZ9wzS5w8Zh" aria-label="Spotify"><i class="fa-brands fa-spotify"></i></a>
+                <a href="http://instagram.com/wolfetraxmusic" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                <!-- <a href="https://www.facebook.com/pg/wolfetrax" aria-label="Facebook"><i class="fa-brands fa-instagram"></i></a> -->
+            </div>
+            <div class="footer-credits">
+                <p>&copy; WOLFETRAX MUSIC • POWERED BY CLOUDFLARE</p>
+                <p><a href="#">Privacy Policy</a> · <a href="#">Terms & Conditions</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

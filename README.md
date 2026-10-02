@@ -1,6 +1,10 @@
 # Wolfetrax
 
-Firebase links: 
+## Reminder
+
+Use personal email for this :)
+
+## Firebase links: 
 
 https://wolfetrax-69420.web.app/
 
